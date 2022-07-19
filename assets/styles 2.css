@@ -1,0 +1,273 @@
+:root {
+    --light: white;
+    --gray: gray;
+
+
+}
+
+body {
+    background-image: url(https://www.lighthouselabs.ca/uploads/post/open_graph_image/459/Coding-vs-programming.jpg);
+    image-rendering: pixelated;
+    margin: auto;
+    float: auto;
+    
+
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    color: var(--light);
+    margin: auto;
+    font-family: 'Brush Script MT';
+    font-weight: bold;
+    font-size: xX-large;
+    border: solid black;
+    height: 150px;
+    width: 100%;
+    box-shadow:
+        inset 0 0 50px black,
+        inset 20px 0 80px black,
+        inset -20px 0 80px white,
+        inset 20px 0 300px blue,
+        inset -20px 0 300px blue,
+        0 0 50px black,
+        -10px 0 80px purple,
+        10px 0 80px blue;
+   
+}
+
+h1 {
+    
+    width: 800px;
+    position: relative;
+    bottom: 50px;
+
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pushmeA,
+.pushmeW,
+.pushmeC {
+   
+    flex-basis: auto;
+    font-size: x-large;
+    color: var(--light);
+    border: 5px transparent;
+    
+    width: 110px;
+    position: relative;
+    top: 115px;
+    left:400px;
+
+
+}
+
+.profilepic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+    position: relative;
+    right: 850px;
+    top: 70px;
+
+
+}
+
+
+
+h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    width: 190px;
+    height: 700px;
+    padding: 10px;
+    border-right: 5px solid var(--gray);
+    margin: 10;
+    text-align: center;
+    color: var(--light);
+
+}
+
+h3 {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    width: 190px;
+    height: 700px;
+    padding: 10px;
+    border-right: 5px solid var(--gray);
+    margin: 10;
+    text-align: center;
+    color: var(--light);
+
+
+}
+
+h4 {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    width: 190px;
+    height: 700px;
+    padding: 10px;
+    border-right: 5px solid var(--gray);
+    margin: 10;
+    text-align: center;
+    color: var(--light);
+
+
+}
+
+.Garrett {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 200%;
+    text-align: center;
+    width: 600px;
+    padding: 1px;
+    color: white;
+    border: 5px solid var(--gray);
+    position: relative;
+    bottom: 580px;
+    left: 50px;
+    background-color: lightblue;
+    transform: rotate(10deg);
+    box-shadow:
+        inset 0 0 50px black,
+        /* inner color */
+        inset 20px 0 80px red,
+        /* inner left color */
+        inset -20px 0 80px black,
+        /* inner right color short */
+        inset 20px 0 300px red,
+        /* inner left color broad */
+        inset -20px 0 300px black,
+        /* inner right color broad */
+        0 0 50px black,
+        /* outer color*/
+        -10px 0 80px red,
+        /* outer left color */
+        10px 0 80px white;
+    /* outer right color */
+}
+
+
+
+.project1 {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 550PX;
+    bottom: 800px;
+    background-color: lightgrey;
+    border: 5px solid var(--gray);
+    box-shadow:
+        0 0 10px #9ecaed,
+        0 0 10px red;
+}
+
+
+.project2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 500PX;
+    bottom: 550px;
+    background-color: lightgrey;
+    border: 5px solid var(--gray);
+    box-shadow:
+        0 0 10px #9ecaed,
+        0 0 10px red;
+}
+
+.project3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 900PX;
+    bottom: 750px;
+    background-color: lightgrey;
+    border: 5px solid var(--gray);
+    box-shadow:
+        0 0 10px #9ecaed,
+        0 0 10px red;
+}
+
+.phone-email {
+    font-weight: bolder;
+    font-size: large;
+    text-decoration: underline;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    
+    box-shadow:
+        inset 60px 30px 120px gold,
+        inset -60px 30px 120px #3a10f5d3;
+    border: 5px solid black;
+    color: var(--light);
+    position: relative;
+    bottom: 650px;
+    left: 550px;
+}
+
+
+@media screen and (min-width: 1768px) {
+    .Garrett{
+        transform: rotate(0);
+        background-color: gray;
+        bottom: 600px;
+        left: 900px;
+        margin: 2px;
+    }
+}
+
+@media screen and (min-width: 1768px) {
+    .project1{
+        left: 1050px;
+        bottom: 800px ;
+    }
+}
+
+@media screen and (min-width: 1768px) {
+    .project2{
+        left: 900px;
+        bottom: 500px ;
+    }
+}
+@media screen and (min-width: 1768px) {
+    .project3{
+        left: 1400px;
+        bottom: 710px ;
+    }
+}
+
+@media screen and (min-width: 1768px) {
+    .phone-email{
+        left: 600px;
+        bottom: 710px ;
+
+    }
+}
+
+
+
+
+@media screen and (min-width: 1768px) {
+    .profilepic{
+        right: 650px;
+    }
+}

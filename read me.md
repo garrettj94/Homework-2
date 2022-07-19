@@ -1,0 +1,1 @@
+I was tasked to create a protfolio that i will use for future jobs. I had to show my knowldge of advange HTML incldue flex and media
