@@ -8,167 +8,102 @@
 body {
     background-image: url(https://www.lighthouselabs.ca/uploads/post/open_graph_image/459/Coding-vs-programming.jpg);
     image-rendering: pixelated;
-    display:flex ;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin: auto;
-    float: right;
+    
 
 }
 
 header {
     background-color: blue;
     color: var(--light);
+    margin: auto;
     font-family: 'Brush Script MT';
     font-weight: bold;
     font-size: x-large;
     border: solid black;
-    height: 150px;
+    height: 17\80px;
+    width: 100%;
     box-shadow:
         inset 0 0 50px black,
-        /* inner black */
         inset 20px 0 80px black,
-        /* inner left red */
         inset -20px 0 80px white,
-        /* inner right white short */
         inset 20px 0 300px blue,
-        /* inner left blue broad */
         inset -20px 0 300px blue,
-        /* inner right blue broad */
         0 0 50px black,
-        /* outer black */
         -10px 0 80px purple,
-        /* outer left red */
         10px 0 80px blue;
-    /* outer right blue */
+   
 }
 
-h1 {
-    width: 500px;
-    position: relative;
-    bottom: 30px;
-    left: 10px;
-
-
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .pushmeA,
 .pushmeW,
 .pushmeC {
-    font-size: large;
-    position: relative;
+   
     color: var(--light);
-    border: 5px transparent;
-    padding: 5px;
-    width: 100px;
-    margin-right: 20px;
-    position: relative;
-    bottom: 25px;
-    left: 1200px;
+    border: 6px transparent;
     
+    width: 110px;
+
 }
 
 .profilepic {
-    width: 100px;
-    position: relative;
-    bottom: 110px;
-    left: 290px;
+    width: 80px;
 }
 
 
-/* main{
-    display:flex ;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
 
-h2{
-    font-size: xx-large;
-    font-weight: bolder;
-    text-decoration: underline;
-    width: 190px;
-    height: 700px;
-    padding: 10px;
-    border-right: 5px solid var(--gray);
-    margin: 10;
-    text-align: center;
-    color: var(--light);
-
-}
-
-h3 {
-    font-size: xx-large;
-    font-weight: bolder;
-    text-decoration: underline;
-    width: 190px;
-    height: 700px;
-    padding: 10px;
-    border-right: 5px solid var(--gray);
-    margin: 10;
-    text-align: center;
-    color: var(--light);
-    position: relative;
-    right: 920px;
-    top: 900px;
-
-}
-
+h2,
+h3,
 h4 {
     font-size: xx-large;
     font-weight: bolder;
     text-decoration: underline;
-    width: 190px;
-    height: 700px;
-    padding: 10px;
-    border-right: 5px solid var(--gray);
-    margin: 10;
+    width: 98%;
+    height: 800px;
+    border: 5px solid var(--gray);
     text-align: center;
     color: var(--light);
-    position: relative;
-    right: 870px;
-    top: 800px;
 
 }
 
+
+
 .Garrett {
-    overflow: hidden;
-    letter-spacing: 0;
-    transition:  1s;
     line-height: 200%;
     text-align: center;
-    width: 900px;
-    padding: 5px;
+    width: 800px;
+    padding: 1px;
+    color: white;
     border: 5px solid var(--gray);
-    position: relative;
-    bottom: 550px;
-    left: 350px;
     background-color: lightblue;
-    transform: rotate(10deg);
     box-shadow:
-        inset 0 0 50px #fff,
-        /* inner white */
+        inset 0 0 50px black,
+        /* inner color */
         inset 20px 0 80px red,
-        /* inner left red */
-        inset -20px 0 80px #0ff,
-        /* inner right cyan short */
+        /* inner left color */
+        inset -20px 0 80px black,
+        /* inner right color short */
         inset 20px 0 300px red,
-        /* inner left magenta broad */
-        inset -20px 0 300px #0ff,
-        /* inner right cyan broad */
-        0 0 50px #fff,
-        /* outer white */
+        /* inner left color broad */
+        inset -20px 0 300px black,
+        /* inner right color broad */
+        0 0 50px black,
+        /* outer color*/
         -10px 0 80px red,
-        /* outer left magenta */
-        10px 0 80px #0ff;
-    /* outer right cyan */
+        /* outer left color */
+        10px 0 80px white;
+    /* outer right color */
 }
 
 
 
 .project1 {
-    position: relative;
-    left: 500px;
-    bottom: 200px;
     width: 500px;
     height: 300px;
     background-color: lightgrey;
@@ -179,12 +114,9 @@ h4 {
 }
 
 
-.project2,
-.project3 {
-    position: relative;
-    right: 100px;
-    top: 200px;
-    margin-right: 50px;
+.project2 {
+    display: flex;
+    flex-wrap: wrap;
     width: 300px;
     height: 200px;
     background-color: lightgrey;
@@ -194,59 +126,78 @@ h4 {
         0 0 10px red;
 }
 
+.project3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    background-color: lightgrey;
+    border: 5px solid var(--gray);
+    box-shadow:
+        0 0 10px #9ecaed,
+        0 0 10px red;
+}
 
 .phone-email {
     font-weight: bolder;
     font-size: large;
     text-decoration: underline;
-    width: 700px;
-    height: 100px;
-    margin: 50px;
-    position: relative;
-    top: 990px;
-    right: 500px;
+    width: 300px;
+    height: 50px;
     text-align: center;
-    width: 220px;
-    padding: 10px;
+    
     box-shadow:
         inset 60px 30px 120px gold,
         inset -60px 30px 120px #3a10f5d3;
     border: 5px solid black;
     color: var(--light);
-
+ 
 }
 
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    header,
-    .pushmeA,
-    .pushmeW,
-    .pushmeC{
-      background-color: #bb8588;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    header,
-    .pushmeA,
-    .pushmeW,
-    .pushmeC{
-      background-color: #8ac4ff;
-    }
-  }
 
-  @media screen and (max-width: 768px) {
-    header,
-    .pushmeA,
-    .pushmeW,
-    .pushmeC{
-      background-color: #bb8588;
-    }
-  }
-
-  @media screen and (max-width: 576px) {
+@media screen and (min-width: 1768px) {
     .Garrett{
-        flex-shrink: 1 1 1;
+        transform: rotate(0);
+        background-color: gray;
+        bottom: 600px;
+        left: 900px;
+        margin: 2px;
     }
-  }
+}
+
+@media screen and (min-width: 1768px) {
+    .project1{
+        left: 1050px;
+        bottom: 800px ;
+    }
+}
+
+@media screen and (min-width: 1768px) {
+    .project2{
+        left: 900px;
+        bottom: 500px ;
+    }
+}
+@media screen and (min-width: 1768px) {
+    .project3{
+        left: 1400px;
+        bottom: 710px ;
+    }
+}
+
+@media screen and (min-width: 1768px) {
+    .phone-email{
+        left: 600px;
+        bottom: 710px ;
+
+    }
+}
+
+
+
+
+@media screen and (min-width: 1768px) {
+    .profilepic{
+        right: 650px;
+    }
+}
